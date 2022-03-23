@@ -57,7 +57,7 @@ class ProductController extends Controller
         ]);
 
         if($validator->fails()){ // jika data yang dimasukan salah, akan kembali ke page edit dengan pesan error
-            return redirect()->route('edit')
+            return redirect()->route('edit', $id)
                 ->with('errors', $validator->errors());
         }
 

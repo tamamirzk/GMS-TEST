@@ -14,7 +14,7 @@
 
 
             <li class="nav-item active">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="{{ route('product') }}">
                     <i class="fas fa-fw fa-tshirt"></i>
                     <span>Product</span></a>
             </li>
@@ -23,13 +23,6 @@
             <hr class="sidebar-divider">
 
             
-
-            <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
-
-            <!-- Sidebar Message -->
 
 
         </ul>
