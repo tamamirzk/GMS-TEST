@@ -12,7 +12,7 @@
 - Frontend menggunakan Blade template
 
 ## Cara instalasi
-- git clone https://github.com/tamamirzk/GMT-TEST.git
+- git clone https://github.com/tamamirzk/GMS-TEST.git
 - setting .env dan database
 - composer install
 - php artisan key:generate
